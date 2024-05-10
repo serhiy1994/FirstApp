@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .task-board {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  .history-sidebar {
+    width: 200px;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    height: 100vh; /*Full viewport height*/
+    overflow-y: auto; /*Scrollable if content is long*/
+  }
+  

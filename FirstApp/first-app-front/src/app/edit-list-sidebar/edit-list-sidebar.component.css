@@ -1,0 +1,10 @@
+.edit-list-sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .edit-list-sidebar input, .edit-list-sidebar button {
+    margin: 5px 0;
+  }
+  

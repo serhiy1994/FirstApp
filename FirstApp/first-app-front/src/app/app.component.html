@@ -1,0 +1,11 @@
+<div class="header">
+  <div>Title of the Page</div>
+  <button>Show History</button>
+</div>
+<div class="content">
+  <input type="text" #newListInput placeholder="Enter new list name">
+  <button (click)="addList(newListInput.value)">Add List</button>
+  <div *ngFor="let list of lists">
+      <app-list [list]="list"></app-list>
+    </div>
+</div>

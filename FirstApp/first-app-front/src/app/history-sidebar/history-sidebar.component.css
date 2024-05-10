@@ -1,0 +1,13 @@
+.history-sidebar {
+    width: 200px;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    height: 100vh; /*Full viewport height*/
+    overflow-y: auto; /*Scrollable if content is long*/
+  }
+  
+  .history-sidebar h3 {
+    margin-top: 0;
+  }
+  

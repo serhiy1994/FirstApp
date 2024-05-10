@@ -1,0 +1,9 @@
+<div class="list-column">
+  <div>{{ list.name }} ({{ list.cards.length }} cards)</div>
+  <button>...</button> <!-- Menu for editing and deleting -->
+  <button (click)="editList('New List Name')">Edit</button>
+  <button (click)="deleteList()">Delete</button>
+  <!-- Cards showing -->
+  <app-card *ngFor="let card of list.cards" [card]="card"></app-card>
+  <button>Add Card</button>
+</div>
